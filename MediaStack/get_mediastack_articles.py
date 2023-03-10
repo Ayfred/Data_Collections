@@ -7,7 +7,8 @@ link = "http://api.mediastack.com/v1/news"
 
 def scrap(keyword):
     params = urllib.parse.urlencode({
-        'access_key': '0dfc3687515467c0d368c72b9d10a768',
+        #TODO: SET THE KEY
+        'access_key': '',
         'keywords': keyword,
         'languages': 'fr,en',
         'limit': 100
